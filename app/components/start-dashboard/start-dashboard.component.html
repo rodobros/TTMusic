@@ -1,0 +1,10 @@
+<div class="round-button">
+  	<div class="round-button-circle">
+    	<a class="round-button" (click)="startMusic()">Start</a>
+  	</div>
+</div>
+
+<div>
+	<label>tempo: </label> <input type="number" [(ngModel)]="tempoValue_" placeholder="name"/> <br/>
+	<label>time signature: </label> <input type="number" [(ngModel)]="beatsPerMeasure_" min="1" max="12" placeholder="4"/> <label>/</label> <input type="number" min="1" max="8" [(ngModel)]="beatsLength_" placeholder="4"/>
+</div>

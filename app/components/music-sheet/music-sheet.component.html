@@ -1,0 +1,14 @@
+<div>
+<canvas id="myMusicSheet" #myMusicSheet width={{canvasWidth}} height={{canvasHeight}}></canvas>
+</div>
+<div class="round-button">
+  	<div class="round-button-circle">
+    	<a class="round-button" (click)="backToSettings()">Back</a>
+  	</div>
+</div>
+
+<div class="round-button">
+  	<div class="round-button-circle">
+    	<a class="round-button" (mousedown)="startDrawNote()" (mouseup)="stopDrawNote()">Play</a>
+  	</div>
+</div>
