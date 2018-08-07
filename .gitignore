@@ -1,2 +1,4 @@
 # for the pesky ds store...
 .DS_Store
+
+/node_modules
